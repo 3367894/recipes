@@ -1,24 +1,36 @@
-# README
+# List of recipes
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+It has only two pages:
 
-Things you may want to cover:
+## List of recipes
 
-* Ruby version
+  * **URL**
+  
+    `/`
+  
+  * **Description**
+  
+    Just list of recipes
+    
+  * **URL Params**
+  
+    `page: [integer]`    
+  
+## Page of recipe
 
-* System dependencies
+  * **URL**
+  
+    `/recipe/:id`
+  
+  * **Description**
+  
+    Full description of recipe
+    
+  * **URL Params**
+  
+    `id: [string]`
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# Comment for solution
+  
+  I added master.key to git because without it you cannot run the application

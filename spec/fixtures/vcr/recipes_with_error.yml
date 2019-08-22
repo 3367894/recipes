@@ -1,0 +1,190 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/content_types?limit=1000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.13.2; integration contentful_model/1.1.0; platform ruby/2.5.3;
+        os Linux;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Contentful-Api:
+      - cda_cached
+      Etag:
+      - W/"17494706067914186142"
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      X-Contentful-Region:
+      - us-east-1
+      Content-Length:
+      - '880'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 22 Aug 2019 19:25:09 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '174838'
+      Connection:
+      - close
+      X-Served-By:
+      - cache-ams21021-AMS
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Accept-Encoding
+      X-Contentful-Request-Id:
+      - 472c7793-2b0f-4877-b9d7-1eab39ad6f0e
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        H4sIAAAAAAAAA+1Y3W/aMBB/718R+XlF+QSat2rqpEl7mFqeNvXBJAZcQpLFhpVV/d/nD5zYiRFp11VNN1QV7PPZ/t2d7d/dw5njALInIHYe2E/WoPsSsRa4rCq4B6zv8QMfQwsKM9YfihZZ45I1XNHI8AZT1vJcV3ZgijZ8xu9iRjlvaxmxFClhwtdSI2SnthneITrVpr7gfA34os2HLZ+vZ4dN34gZWwNwyvGs1/78Z1Tc3YeTMYelPo/1bwFUfoDUIRRSnHyFS33OejMfi5yinIq1NdWkQpCi9JKbBPiuNz33/HN3MvO9OPDjYDIaT8ffdIVtmXYVPHfmTeMgjL1oFE4nhgLKd7gq8g1bvJf1JJgNJBRVbeP0teyVtuZJ61VohwkucrY7/zC4Ni5IMSkzuP+EUSYckxTbnFb7emMghxsRgdL6TqmbH6SIJBUuqZwdzFbISdEC55j3OMXCgc5Bz3AbWPDlmqDkbjbCTtqovRc+rN6PVajsd7PfzIvMsC7IigRm+BfiMBcwI0gPTFChH1tcCSGttqaM2QjOsyOKBTtuLMDUpLb4tUCbVzBPzf0pQ1tELwKri/kv4CLZdmmH1ZUMB9Ud3EEZ6HZsx+QK4Qzd02cG46t4LSHEDqwjGAqieZE2d5hxb3QlQ8FU4WRld1NXojBdM503EH2HW/FWfB8enwEzkQol2KQZyt69WYgbcRbiBbEfxBFjIRfTEyykVgjGsT8ZhUE4WBZycZKFUEyzhsbVb/61afcu/cDEYX+U0RDpIieRrNAR/lEPfk/6YW7CuEQsouG8ZuWqoIX9IrGIFK4O2e9PqP7sDTNomp5eXBKCaJM8aAmDhXAx7ldUGB1756xSBf0zyyyWLbL+Wuh78kmdiBsGU6zy6IChvH7JCi3sQduVvN2YvRLJVU+nUrg8Eq9diYIsCwXmmemb+LzgOVVFB/0knqgc7Fh2xlJvljiaiSG/eM30UPaIUoP+3qoShxSr/4DZSq8wyH7JRJqRTd2B9922ahb6rdPyIKMzjTffGc1pHaynl1oakhPFbjiKoou+JMe3Kgyp1OKdJDniaq45ibqoDaO3Gc5TKYyxBI/smkp1JW+KwLyzk8TvIK0oqUz9jGyBlSDHo2AS9T5IVoV/4SDpNv9/jvjh5y/V7dnj2W8d2f+YZxgAAA==
+    http_version: 
+  recorded_at: Thu, 22 Aug 2019 19:25:09 GMT
+- request:
+    method: get
+    uri: https://cdn.contentful.com/spaces/kk2bw5ojx476/environments/master/entries?content_type=wrong_recipe&include=2&limit=3&order=fields.title,sys.id&skip=0
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      X-Contentful-User-Agent:
+      - sdk contentful.rb/2.13.2; integration contentful_model/1.1.0; platform ruby/2.5.3;
+        os Linux;
+      Authorization:
+      - Bearer 7ac531648a1b5e1dab6c18b0979f822a5aad0fe5f1109829b8a197eb2be4b84c
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Accept-Encoding:
+      - gzip
+      Connection:
+      - close
+      Host:
+      - cdn.contentful.com
+      User-Agent:
+      - http.rb/2.2.2
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Access-Control-Allow-Headers:
+      - Accept,Accept-Language,Authorization,Cache-Control,Content-Length,Content-Range,Content-Type,DNT,Destination,Expires,If-Match,If-Modified-Since,If-None-Match,Keep-Alive,Last-Modified,Origin,Pragma,Range,User-Agent,X-Http-Method-Override,X-Mx-ReqToken,X-Requested-With,X-Contentful-Version,X-Contentful-Content-Type,X-Contentful-Organization,X-Contentful-Skip-Transformation,X-Contentful-User-Agent,X-Contentful-Enable-Alpha-Feature
+      Access-Control-Allow-Methods:
+      - GET,HEAD,OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - Etag
+      Access-Control-Max-Age:
+      - '86400'
+      Cf-Environment-Id:
+      - master
+      Cf-Environment-Uuid:
+      - 3e111988-d2b3-4647-a0a8-ed1215cbd839
+      Cf-Organization-Id:
+      - 0OxgeKaTWSWzTukWE0scEe
+      Cf-Space-Id:
+      - kk2bw5ojx476
+      Content-Type:
+      - application/vnd.contentful.delivery.v1+json
+      Contentful-Api:
+      - cda_cached
+      Etag:
+      - '"743177887752984717"'
+      Server:
+      - Contentful
+      X-Content-Type-Options:
+      - nosniff
+      X-Contentful-Region:
+      - us-east-1
+      Content-Length:
+      - '382'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 22 Aug 2019 19:25:09 GMT
+      Via:
+      - 1.1 varnish
+      Age:
+      - '601'
+      Connection:
+      - close
+      X-Served-By:
+      - cache-ams21046-AMS
+      X-Cache:
+      - HIT
+      X-Cache-Hits:
+      - '1'
+      Vary:
+      - Accept-Encoding
+      X-Contentful-Request-Id:
+      - '09156974-bce2-4f9e-a3cc-d21f4f8ac5e6'
+    body:
+      encoding: ASCII-8BIT
+      string: |
+        {
+          "sys": {
+            "type": "Error",
+            "id": "InvalidQuery"
+          },
+          "message": "The query you sent was invalid. Probably a filter or ordering specification is not applicable to the type of a field.",
+          "details": {
+            "errors": [
+              {
+                "name": "unknownContentType",
+                "value": "DOESNOTEXIST"
+              }
+            ]
+          },
+          "requestId": "f28921cc-746c-4f06-9d2e-eca27fb73816"
+        }
+    http_version: 
+  recorded_at: Thu, 22 Aug 2019 19:25:09 GMT
+recorded_with: VCR 5.0.0
