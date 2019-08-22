@@ -1,0 +1,15 @@
+%table.table.table-dark.recipes
+  %thead
+    %th
+    %th= t('.title')
+
+  %tbody
+    - @recipes.each do |recipe|
+      %tr
+        %td= image_tag(recipe.photo.url(width: 100))
+        %td= link_to recipe.title, recipe_path(recipe.id)
+
+- unless @recipes.first_page?
+  = link_to t('.prev'), recipes_path(page: @recipes.page - 1)
+- unless @recipes.last_page?
+  = link_to t('.next'), recipes_path(page: @recipes.page + 1)

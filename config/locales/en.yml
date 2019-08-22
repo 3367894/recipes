@@ -31,3 +31,17 @@
 
 en:
   hello: "Hello world"
+  recipes:
+    index:
+      title: "Title"
+      prev: "Prev page"
+      next: "Next page"
+    show:
+      chef: "by %{name}"
+      back: "Back"
+  layouts:
+    application:
+      recipes: "Recipes"
+  error:
+    contentful_error:
+      contentfull_error: "We have some problems but we are working on a solution"

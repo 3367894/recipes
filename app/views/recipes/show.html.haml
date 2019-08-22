@@ -1,0 +1,13 @@
+.back= link_to t('.back'), root_path
+
+.recipe
+  .title= @recipe.title
+  - if @recipe.chef.present?
+    .chef= t('.chef', name: @recipe.chef.name)
+
+  .photo
+    = image_tag @recipe.photo.url
+
+  .description= @recipe.description
+  - if @recipe.tags.present?
+    .tags= @recipe.tags_list
